@@ -9,9 +9,8 @@ SELECT
     *
 FROM location    
 LIMIT 10;
-SELECT *
-FROM water_source
-LIMIT 5;
+SELECT DISTINCT type_of_water_source
+FROM water_source;
 SELECT *
 FROM water_quality
 LIMIT 5;
