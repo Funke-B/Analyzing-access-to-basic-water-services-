@@ -7,10 +7,25 @@ This project is focused on analyzing water quality and access in the fictional r
 
 The analysis is centered on:
 
-- Evaluating water sources based on pollution results
+- Identify patterns in water source usage and quality.
 - Identifying infrastructure needs for various water source types
 - Tracking employee data to assess improvement efforts
 - Generating recommendations for improvement (e.g., installing filters, diagnosing infrastructure issues, etc.)
+- Highlight pollution issues and propose corrections
+
+## Key Tasks:
+- Understand the Data: Analyze foundational tables like water sources, visits, and quality metrics.
+- Explore Visit Patterns: Identify frequently visited locations, long queue times, and possible inefficiencies.
+- Assess Water Quality: Filter high-visit, poor-quality sources and flag errors in cleanliness reports.
+- Investigate Pollution: Correct inconsistencies in pollution data using SQL and validate results.
+
+## Insights and Recommendations
+
+- Water source distribution and usage patterns.
+- Locations with the longest queues or highest contamination.
+- Areas requiring immediate intervention based on pollution.
+
+
 
 ## Database Structure
 
